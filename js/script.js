@@ -20,5 +20,5 @@ function divide(number1, number2) {
   let number1 = parseInt(prompt("Enter a number:"));
   let number2 = parseInt(prompt("Enter another number"));
   
-  let result = subtract(number1, number2);
+  let result = divide(number1, number2);
   alert(result);
