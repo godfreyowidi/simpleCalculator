@@ -36,7 +36,7 @@ $(document).ready(function(){
     event.preventDefault();
     const number1 = parseInt($("number1").val());
     const number2 = parseInt($("number2").val());
-    const result = add(number1 + number2);
+    const result = subtract(number1 + number2);
     $("#output").text(result);
 });
 
@@ -45,7 +45,7 @@ $(document).ready(function(){
     event.preventDefault();
     const number1 = parseInt($("number1").val());
     const number2 = parseInt($("number2").val());
-    const result = add(number1 + number2);
+    const result = multiply(number1 + number2);
     $("#output").text(result);
 });
 
@@ -54,6 +54,6 @@ $(document).ready(function(){
     event.preventDefault();
     const number1 = parseInt($("number1").val());
     const number2 = parseInt($("number2").val());
-    const result = add(number1 + number2);
+    const result = divide(number1 + number2);
     $("#output").text(result);
 });
