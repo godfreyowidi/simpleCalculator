@@ -17,17 +17,43 @@ function divide(number1, number2) {
   
   // alert(result);
   
-  let number1 = parseInt(prompt("Enter a number:"));
-  let number2 = parseInt(prompt("Enter another number"));
+  // let number1 = parseInt(prompt("Enter a number:"));
+  // let number2 = parseInt(prompt("Enter another number"));
   
-alert(add(number1, number2));
+//alert(add(number1, number2));
 
-$document.ready(function(){
+$(document).ready(function(){
   $("form#add").submit(function(event) {
     event.preventDefault();
-    const number1 = parseInt($("add1").val());
-    const number2 = parseInt($("add2").val());
+    const number1 = parseInt($("number1").val());
+    const number2 = parseInt($("number2").val());
     const result = add(number1 + number2);
-    alert(result);
+    $("#output").text(result);
   });
+
+$(document).ready(function(){
+  $("form#add").submit(function(event) {
+    event.preventDefault();
+    const number1 = parseInt($("number1").val());
+    const number2 = parseInt($("number2").val());
+    const result = add(number1 + number2);
+    $("#output").text(result);
+});
+
+$(document).ready(function(){
+  $("form#add").submit(function(event) {
+    event.preventDefault();
+    const number1 = parseInt($("number1").val());
+    const number2 = parseInt($("number2").val());
+    const result = add(number1 + number2);
+    $("#output").text(result);
+});
+
+$(document).ready(function(){
+  $("form#add").submit(function(event) {
+    event.preventDefault();
+    const number1 = parseInt($("number1").val());
+    const number2 = parseInt($("number2").val());
+    const result = add(number1 + number2);
+    $("#output").text(result);
 });
